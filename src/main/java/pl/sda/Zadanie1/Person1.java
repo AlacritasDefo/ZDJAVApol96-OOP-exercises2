@@ -1,25 +1,25 @@
 package pl.sda.zadanie1;
 
-public abstract class Person {
+public abstract class Person1 {
 
     private String firstName;
     private String lastName;
 
-    public Person(String firstName, String lastName) {
+    public Person1(String firstName, String lastName) {
         this.firstName = firstName;
         this.lastName = lastName;
     }
 
-    public Person() {
+    public Person1() {
         firstName = "";
         lastName = "";
     }
 
-    public String getFirstName(String firstName) {
+    public String getFirstName() {
         return firstName;
     }
 
-    public String getLastName(String lastName){
+    public String getLastName(){
         return lastName;
     }
 
