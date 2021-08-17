@@ -3,6 +3,9 @@ package pl.sda;
 import pl.sda.zadanie1.Employee;
 import pl.sda.zadanie1.Manager;
 import pl.sda.zadanie1.Person;
+import pl.sda.zadanie2.AdditionOperation;
+import pl.sda.zadanie2.Operation;
+import pl.sda.zadanie2.SubtractionOperation;
 
 /**
  * Hello world!
@@ -26,6 +29,11 @@ public class App
 
         System.out.println(person1);
         System.out.println(person2);
+Operation additionOperation = new AdditionOperation();
+Operation substractionOperation = new SubtractionOperation();
+
+        System.out.println(additionOperation.calculate(2, 1));
+        System.out.println(substractionOperation.calculate(5, 3));
 
     }
 }
