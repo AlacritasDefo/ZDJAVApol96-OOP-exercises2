@@ -9,12 +9,9 @@ import pl.sda.zadanie2.SubtractionOperation;
 
 /**
  * Hello world!
- *
  */
-public class App 
-{
-    public static void main( String[] args )
-    {
+public class App {
+    public static void main(String[] args) {
         Person person1 = new Employee("informatyk", 2000);
         Person person2 = new Manager("IT", 3000);
 
@@ -29,8 +26,8 @@ public class App
 
         System.out.println(person1);
         System.out.println(person2);
-Operation additionOperation = new AdditionOperation();
-Operation substractionOperation = new SubtractionOperation();
+        Operation additionOperation = new AdditionOperation();
+        Operation substractionOperation = new SubtractionOperation();
 
         System.out.println(additionOperation.calculate(2, 1));
         System.out.println(substractionOperation.calculate(5, 3));
