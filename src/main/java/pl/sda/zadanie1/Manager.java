@@ -29,6 +29,8 @@ public class Manager extends Person {
     @Override
     public String toString() {
         return "Manager{" +
+                " imię= " + getFirstName() +
+                ", nazwisko= " + getLastName() +
                 "dzial='" + dzial + '\'' +
                 ", wynagrodzenie=" + wynagrodzenie +
                 '}';
