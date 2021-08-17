@@ -1,6 +1,6 @@
 package pl.sda.zadanie1;
 
-public class Manager extends Person1 {
+public class Manager extends Person {
 
      private String dzial;
      private float wynagrodzenie;

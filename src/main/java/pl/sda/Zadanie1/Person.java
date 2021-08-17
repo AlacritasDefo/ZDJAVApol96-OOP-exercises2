@@ -1,16 +1,16 @@
 package pl.sda.zadanie1;
 
-public abstract class Person1 {
+public abstract class Person {
 
     private String firstName;
     private String lastName;
 
-    public Person1(String firstName, String lastName) {
+    public Person(String firstName, String lastName) {
         this.firstName = firstName;
         this.lastName = lastName;
     }
 
-    public Person1() {
+    public Person() {
         firstName = "";
         lastName = "";
     }

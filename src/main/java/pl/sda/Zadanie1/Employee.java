@@ -1,10 +1,10 @@
 package pl.sda.zadanie1;
 
-public class Employee1 extends Person1 {
+public class Employee extends Person {
     private String job;
     private double salary;
 
-    public Employee1(String job, double salary) {
+    public Employee(String job, double salary) {
         this.job = job;
         this.salary = salary;
     }
