@@ -1,6 +1,7 @@
 package pl.sda.zadanie1;
 
 public class Employee extends Person {
+
     private String job;
     private double salary;
 
